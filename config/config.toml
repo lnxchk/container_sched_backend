@@ -1,3 +1,4 @@
-[cfg]
-out = "foo"
+[myconfig]
+out = "bar"
 leader = true
+color = "red"
