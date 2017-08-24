@@ -1,5 +1,5 @@
 pkg_name=container_sched_backend
-pkg_origin=thom
+pkg_origin=lnxchk
 pkg_version="0.1.0"
 pkg_build_deps=(core/rust)
 pkg_deps=(core/glibc core/gcc core/gcc-libs)
