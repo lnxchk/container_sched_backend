@@ -1,10 +1,10 @@
 [myconfig]
 out = "{{cfg.out}}"
 color = "{{cfg.color}}"
-#
-{{~# if svc.me.leader ~}}
+
+{{#if svc.me.leader ~}}
 leader = true
 {{ else }}
 leader = false
-{{/if ~}}
+{{/if}}
 
