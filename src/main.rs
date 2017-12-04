@@ -23,7 +23,7 @@ fn main() {
             println!("I am a follower");
         }
 	let color = value["myconfig"]["color"].as_str().unwrap();
-	println!("The best color is {}", color);
+	println!("My favorite color is {}", color);
 
         thread::sleep(five_seconds);
     }
