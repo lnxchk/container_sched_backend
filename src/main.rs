@@ -11,12 +11,12 @@ fn main() {
     file.read_to_string(&mut contents).unwrap();
 	println!("{}", contents);
     let value = contents.parse::<Value>().unwrap();
-	println!("After Parse into Value");
+//	println!("After Parse into Value");
 //	println!("{}", value);
     let five_seconds = time::Duration::new(5, 0);
 
     loop {
-	println!("In Loop");
+//	println!("In Loop");
         if value["myconfig"]["leader"].as_bool().unwrap() {
             println!("I am a leader");
         } else {
